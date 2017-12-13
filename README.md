@@ -1,5 +1,7 @@
 # Ingress Comm Automatically send message
 
+![](https://travis-ci.org/zishang520/IngressCommRobot-nodejs.svg?branch=master)
+
 ### Tips: Nodejs version
 
 Add the file run.js to the scheduled task, for 15 minutes
