@@ -1,10 +1,14 @@
 {
-  "private": true,
-  "devDependencies": {},
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "request": "^2.83.0",
-    "sqlite": "^3.1.13",
-    "tough-cookie-filestore": "git+https://github.com/zishang520/tough-cookie-filestore.git"
-  }
+    "private": true,
+    "devDependencies": {},
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "request": "latest",
+        "sqlite": "latest",
+        "tough-cookie-filestore": "git+https://github.com/zishang520/tough-cookie-filestore.git"
+    },
+    "main": "run.js",
+    "scripts": {
+        "start": "node run.js"
+    }
 }
